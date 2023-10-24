@@ -1,0 +1,880 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  min-height: 100vh;
+  background-color: #28313e;
+  background-position: 10px, 20px, 20px 30px;
+  height: -9100px;
+  overflow-x: hidden !important;
+  overflow-x: hidden;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  position: absolute;
+  right: 19px;
+  top: 44px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  transition: 0.5s ease-in-out;
+
+  background-color: none;
+  padding: 9px;
+}
+
+nav a:hover {
+  color: aquamarine;
+  transition: 0.5s ease-in-out;
+}
+
+nav li {
+  list-style: none;
+  justify-content: space-around;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+  letter-spacing: 1px;
+  justify-content: space-around;
+}
+
+nav .estilo-a:hover {
+  color: #262d36;
+  background-color: aquamarine;
+}
+
+/* scrol do site  */
+::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #28313e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #343d4a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3f4752;
+  transition: 0.5s ease-in-out;
+}
+
+/* main/logo/buttom/img  ---------------------------------------------*/
+main .logo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  padding: 5px;
+  position: absolute;
+  right: 82%;
+  justify-items: center;
+  font-size: 36px;
+  top: -10px;
+  text-decoration: none;
+}
+main .a-logo {
+  text-decoration: none;
+  color: white;
+}
+
+main .center {
+  text-align: left;
+  position: absolute;
+  top: 38%;
+  right: 49.8%;
+}
+
+main h2 {
+  font-size: 60px;
+  justify-items: baseline;
+  color: aquamarine;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+main p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Botão  */
+form button {
+  width: 13%;
+  text-align: center;
+  height: 40px;
+  position: absolute;
+  transform: translate(631px, 280px);
+  top: 120px;
+  left: -540px;
+  color: black;
+  border-radius: 14px;
+  background-color: rgb(98, 255, 203);
+  font-weight: bolder;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 1px 1px 0px;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: aquamarine;
+  background-color: black;
+  transition: 0.5s ease-in-out;
+  border-color: aquamarine;
+}
+
+main .img-main {
+  right: 9%;
+  position: absolute;
+  top: 19%;
+  justify-items: center;
+  align-items: center;
+}
+
+.aquamarine {
+  color: aquamarine;
+}
+
+/* Pg Sobre--------------------/  */
+
+span .aqua {
+  color: aquamarine;
+}
+
+header .h1-sobre {
+  background-color: #374250;
+  height: 716px;
+  position: inherit;
+  color: white;
+  font-size: 40px;
+  transform: translateY(830px);
+  font-weight: lighter;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: -19px;
+  transform: translate(10px 10px);
+  padding: 19px;
+  text-transform: translate(100px 100px);
+}
+
+header .p-sobre {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  transform: translate(424px, 598px);
+  font-weight: lighter;
+  font-size: 25px;
+  color: white;
+}
+
+header .foto-sobre {
+  border-radius: 70px;
+  border-style: solid;
+  border-color: aquamarine;
+
+  box-shadow: 0px 2px 4px 0px;
+  transform: translate(100px, 860px);
+}
+
+header .sobre-tudo-background {
+  transform: translate(100px, -600px);
+}
+
+/* Serviços---------------------------------------- */
+
+header .h2-servicos {
+  text-align: center;
+  font-size: 44px;
+  transform: translate(0px, 341px);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+header .p-servicos {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  transform: translate(0px, 341px);
+}
+
+header .p-servicos-pr1 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  transform: translate(0px, 353px);
+}
+
+header .titulo-servicos-paragrafo {
+  text-align: left;
+  transform: translate(390px, 35px);
+}
+
+header #perguntas-resp {
+  transform: translate(-400px, -194px);
+}
+
+div #lista-servicos-oferecidos {
+  justify-content: space-around;
+  position: relative;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
+  font-size: 30px;
+  text-align: left;
+  padding-top: -420%;
+  transform: translate(448%, -170px);
+  background-color: #374250;
+  position: absolute;
+  padding: 30px;
+  font-weight: lighter;
+  height: 40%;
+  box-shadow: 14px 1px 31px 1px inset #3e4651;
+}
+
+header .hr2 {
+  background-color: rgb(0, 255, 242);
+  transform: rotate(90deg);
+  width: 15%;
+}
+
+header .h22 {
+  color: aquamarine;
+  font-weight: lighter;
+  text-align: center;
+}
+
+header .pstouch {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transform: translate(171px, 410px);
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+header .pstouch-exemplo {
+  height: 235px;
+  width: 175px;
+  background-color: #3f4752;
+  padding: 15px;
+  transform: translate(230px, 150px);
+}
+
+/* Avaliações ----------------------------*/
+
+header .h2-ava {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  font-size: 44px;
+  transform: translate(0px, 311px);
+  text-align: center;
+  background-color: #374250;
+  padding: 15px;
+  height: 702px;
+  transform: translate(-10px, 341px);
+  width: 99.5%;
+}
+
+header .p-ava {
+  transform: translate(0px, -321px);
+  text-align: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header .p-ava,
+a {
+  text-decoration: none;
+}
+
+header .hr-ava {
+  transform: translate(0px, -315px);
+  width: 340px;
+  background-color: aquamarine;
+}
+
+header .rifa-foto {
+  transform: translate(0px, -400px);
+  width: 44vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px;
+  transition: 0.5s ease-in-out;
+  opacity: 0.4;
+}
+
+header .rifa-foto:hover {
+  opacity: 10;
+  box-sizing: 0px 0px 0px 11px inset;
+  transition: 0.5s ease-in-out;
+}
+
+header #logo {
+  transform: translate(800px, -270px);
+  height: 350px;
+  width: 320px;
+}
+
+header #logo2 {
+  transform: translate(760px, -270px);
+  width: 320px;
+  height: 350px;
+}
+
+/* avaliação do caio separada */
+
+header #h2-ava-2 {
+  transform: translate(100px, -321px);
+  position: absolute;
+  background-color: rgb(114, 161, 144);
+  width: 430.8px;
+  text-align: center;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header #p-ava-1 {
+  transform: translate(100px, -266px);
+  position: absolute;
+  background-color: #28313e;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  width: 383px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header .img-ava-caio {
+  width: 55px;
+  transform: translate(134px, -502px);
+  border-style: solid;
+  border-color: aquamarine;
+}
+
+header .ava-geral0 {
+  transform: translate(0px, 75px);
+}
+
+/* Portfólio --------------------------------- */
+
+header .h2-port {
+  text-align: center;
+  font-size: 44px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: lighter;
+  transform: translate(0px, -240px);
+}
+
+header .p-port {
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+  transform: translate(560px, -275px);
+}
+
+header .tudo-port-text {
+  text-align: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  transform: translate(0px, 110px);
+}
+
+/* fotos/img ---- */
+div .img-port {
+  width: 143px;
+  height: 143px;
+}
+
+div #img-port0 {
+  background-color: #374250;
+  padding: 10px;
+  height: 200px;
+  width: 412px;
+  transform: translate(520px, 105px);
+  border-radius: 40px;
+}
+
+div #img-port1 {
+  background-color: #374250;
+  padding: 10px;
+  width: 312px;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+div #img-port2 {
+  background-color: #374250;
+  padding: 10px;
+  width: 312px;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+div #img-port3 {
+  background-color: #374250;
+  padding: 10px;
+  width: 212px;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+div #img-port4 {
+  background-color: #374250;
+  padding: 10px;
+  width: 302px;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+div #menos-o-0 {
+  transform: translate(65px, -440px);
+  width: 180vh;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+}
+
+#img-port0:hover {
+  opacity: 1.1;
+  box-shadow: 0px 1px 0px 0px;
+}
+
+#img-port1:hover {
+  opacity: 1.1;
+  box-shadow: 0px 1px 0px 0px;
+}
+
+#img-port2:hover {
+  opacity: 1.1;
+  box-shadow: 0px 1px 0px 0px;
+}
+
+#img-port3:hover {
+  opacity: 1.1;
+  box-shadow: 0px 1px 0px 0px;
+}
+
+#img-port4:hover {
+  opacity: 1.1;
+  box-shadow: 0px 1px 0px 0px;
+}
+
+/* Contato / fomulário  ---------------------*/
+
+header .form-text {
+  text-align: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 44px;
+  font-weight: lighter;
+  transform: translate(-55px, 0px);
+  background-color: #343d4a;
+  width: 104%;
+  height: 900px;
+}
+
+header #btContato {
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+header .img-contato-form {
+  width: 50vh;
+}
+
+header form {
+  position: absolute;
+  text-align: center;
+  display: inline;
+  padding: 1px;
+  transform: translate(591px, -650px);
+}
+
+header .Formulário-ground {
+  position: absolute;
+}
+input {
+  padding: 15px;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+
+header .form-h2 {
+  text-align: center;
+  transform: translate(632px, -705px);
+  padding: 0%;
+  color: aquamarine;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+header .form-text-p {
+  transform: translate(389px, -735.9px);
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  color: white;
+  position: absolute;
+  background-color: rgb(39, 138, 105);
+  padding: 1px;
+  text-align: center;
+  height: 435.5px;
+  margin: 10px;
+
+  width: 20%;
+}
+
+::placeholder {
+  color: rgb(70, 133, 112);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header .Formulário-ground1 {
+  background-color: #3e4651;
+  border-radius: 0px 20px 20px 0px;
+  width: 230px;
+  padding: 35px;
+  height: 300px;
+  position: absolute;
+  transform: translate(55px, -42px);
+}
+header #btContato:hover{
+  transition: 0.5s ease;
+  color: #3d4857;
+  background-color: rgb(148, 255, 219);
+} 
+header #btContato {
+  transition: 0.5s ease;
+  width: 150px;
+  border-radius: 15px;
+  font-weight: lighter;
+  font-family: Arial;
+  color: white;
+  background-color: rgb(88, 195, 159);
+  cursor: pointer;
+}
+
+header #msg {
+  height: 100px;
+  border-radius: 10px;
+}
+
+header #msg::placeholder {
+  transform: translate(0px, -35px);
+}
+
+/* rodapé ----------------- */
+
+footer {
+  color: none;
+}
+
+footer .icon-wpp {
+  width: 3vh;
+  text-align: center;
+  position: relative;
+  transform: translate(730px, 1px);
+  transition: 0.5s ease-in-out;
+}
+
+footer .icon-insta {
+  width: 3vh;
+  text-align: center;
+  transform: translate(630px, 1px);
+  transition: 0.5s ease-in-out;
+}
+
+footer .icon-insta:hover {
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+}
+
+footer .icon-wpp:hover {
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+}
+
+footer .copy-footer {
+  color: white;
+  font-size: 13px;
+  transform: translate(-10px, 10px);
+  padding: 10px;
+  width: 100.2%;
+  font-family: arial;
+  background-color: #262d36;
+}
+ footer .home-footer {
+  transform: translate(567%, -16px);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: arial;
+  position: absolute;
+}
+
+footer #so-f {
+  color: white;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+footer #ho-f {
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer #sv-f {
+  transition: 0.5s ease-in-out;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* f-hover -------- */
+
+footer #so-f:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 0px 0px 1px;
+}
+
+footer #ho-f:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 0px 0px 1px;
+}
+
+footer #sv-f:hover {
+  box-shadow: 0px 0px 0px 1px;
+  transition: 0.5s ease-in-out;
+}
+
+/* end  */
+
+@media screen and (max-width: 768px) {
+  body,html{
+    overflow-x: hidden;
+  }
+  nav {
+    opacity: 0;
+  }
+  main .img-main {
+    width: 18vh;
+    position: relative;
+    right: -225px;
+    top: -8px;
+  }
+  main .h2-main {
+    top: -140px;
+    right: -30px;
+    font-size: 42px;
+    position: relative;
+  }
+  main .a-logo {
+    position: relative;
+    right: -140px;
+  }
+  main p {
+    text-align: center;
+    position: relative;
+    top: -147px;
+    right: -18px;
+  }
+  /* header  */
+
+  header .h1-sobre {
+    opacity: 0;
+  }
+  header .p-sobre {
+    position: relative;
+    top: -350px;
+    text-align: center;
+    right: 523px;
+  }
+  header .foto-sobre {
+    border-radius: 50pc;
+    position: relative;
+    top: -601px;
+    width: 20vh;
+    right: 91px;
+  }
+
+  header .h2-servicos {
+    display: flex;
+    position: relative;
+    top: -640px;
+    right: 300px;
+  }
+
+  header .p-servicos {
+    position: relative;
+    top: -635px;
+    right: 390px;
+  }
+
+  /* header .h22{
+    position: relative;
+    top: -780px;
+    right: 910px;
+} */
+
+  header #remover {
+    opacity: 0;
+  }
+  header .p-servicos-pstouch {
+    position: relative;
+    top: -750px;
+    right: 116px;
+  }
+  header .pstouch-exemplo {
+    position: relative;
+    top: -750px;
+    right: 119px;
+  }
+
+  header .h2-servicos {
+    position: relative;
+    top: -610px;
+    right: 297px;
+  }
+  header .p-servicos-pr1 {
+    opacity: 0;
+  }
+
+  header #avaliações {
+    position: relative;
+    top: -900px;
+  }
+
+  header .p-ava {
+    position: relative;
+    top: -890px;
+  }
+
+  header .ava-geral0 {
+    position: relative;
+    right: 120px;
+    top: -978px;
+  }
+  header .img-ava-caio {
+    position: relative;
+    top: -1320px;
+    right: 120px;
+  }
+  header .h2-port{
+    transform: translateY(-2660%);
+  }
+  div #img-port1{
+    display: flex;
+    transform: translateY(-810%);
+    position: relative;
+    right: 14px;
+    width: 47vh;
+  }
+  header .p-port{
+    transform: translateY(-1890%);
+    text-align: center;
+    right: 28px;
+  }
+  header .hr-ava{
+    top: -272px;
+    right: -10px;
+    position: relative;
+  }
+  div #img-port4{
+    position: relative;
+    width: 47vh;
+    right: 955.9px;
+    top: -1140px;
+  }
+  div p.p-port-2{
+    position: relative;
+    top: -1100px;
+    background-color: #252c36;
+  }
+  div #img-port0{
+    position: relative;
+    right: 511px;
+    top: -1100px;
+  }
+  header .Formulário-ground1{
+    position: relative;
+    right: 620px;
+    top: -1650px;
+  }
+  header .form-enviar-msg{
+    position: relative;
+    top: -400px;
+  }
+  header .form-text {
+    position: relative;
+    top: -590px;
+    right: -40px;
+}
+header .form-text-p {
+  position: relative;
+  top: -741px;
+  right: 332px;
+  background-color: #374250;
+  text-align: center;
+  width: 300px;
+}
+imagens-rodape{
+  position: relative;
+  width: 90vh;
+  right: 103px;
+}
+}
